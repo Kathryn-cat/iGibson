@@ -33,3 +33,10 @@ class YCBObject(StatefulObject):
 
     def get_body_id(self):
         return self.body_id
+    
+    def reset(self):
+        pass
+
+    def force_wakeup(self):
+        pass
+
